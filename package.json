@@ -13,7 +13,7 @@
   },
    "repository": {
     "type": "git",
-    "url": "https://github.com/bendorshai.git"
+    "url": "https://github.com/bendorshai/currier"
   },
   "license": "ISC",
   "dependencies": {
