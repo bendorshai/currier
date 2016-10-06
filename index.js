@@ -1,5 +1,3 @@
-var _ = require('lodash');
-
 // Ctor of currier
 module.exports = exports = function (callback) {
     this.args = [];
@@ -7,9 +5,11 @@ module.exports = exports = function (callback) {
     var that = this;
 
     this.pushArgs =  function() {
+
         // Push all args
-        _.forEach(arguments, arg => 
-            that.args.push(arg));
+        for (var arg of arguments) {
+            that.args.push(arg);
+        }
         
         // Ctor returns push args function
         if (this.argsLength == args.length) {
@@ -24,4 +24,3 @@ module.exports = exports = function (callback) {
         return pushArgs;
     }
 }
-

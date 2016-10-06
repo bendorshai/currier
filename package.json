@@ -1,6 +1,6 @@
 {
   "name": "currier",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A wrapper for function currying in JavaScript",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.16.3"
   },
   "keywords": ["currying", "functional programming"],
   "tonicExampleFilename": "example.js"
